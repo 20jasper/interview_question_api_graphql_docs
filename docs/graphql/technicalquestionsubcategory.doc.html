@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="./styles/graphdoc.css" />
-    <title>__Field</title>
+    <title>TechnicalQuestionSubcategory</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet"><link type="text/css" rel="stylesheet" href="./assets/code.css" /><link type="text/css" rel="stylesheet" href="./assets/require-by.css" />
 </head>
 <body class="slds-scrollable--y">
@@ -95,7 +95,7 @@
                 Questions
             </a>
         </li>
-        <li  title="TechnicalQuestionSubcategory">
+        <li class="slds-is-active" title="TechnicalQuestionSubcategory">
             <a href="technicalquestionsubcategory.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 TechnicalQuestionSubcategory
             </a>
@@ -110,7 +110,7 @@
                 __EnumValue
             </a>
         </li>
-        <li class="slds-is-active" title="__Field">
+        <li  title="__Field">
             <a href="field.spec.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 __Field
             </a>
@@ -161,9 +161,8 @@
     </div>
     <div class="container">
         <p class="slds-text-title--caps slds-text-color--weak">OBJECT</p>
-        <h1 class="slds-text-heading--large">__Field</h1>
-        <div class="slds-text-body--regular"><p>Object and Interface types are described by a list of Fields, each of which
-has a name, potentially a list of arguments, and a return type.</p>
+        <h1 class="slds-text-heading--large">TechnicalQuestionSubcategory</h1>
+        <div class="slds-text-body--regular"><p>Domains of knowledge common in front end interviews</p>
 </div>
     </div>
 </section>
@@ -175,7 +174,7 @@ has a name, potentially a list of arguments, and a return type.</p>
             </a>
             GraphQL Schema definition
         </h2>
-        <code class="highlight"><ul class="code" style="padding-left:42px"><li><span class="keyword operator ts">type</span> <span class="identifier">__Field</span> {</li><li></li><li><span class="tab"><span class="meta">name</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="meta">description</span>: <a class="support type" href="string.doc.html">String</a> </span></li><li></li><li><span class="tab"><span class="meta">args</span>: [<a class="support type" href="inputvalue.spec.html">__InputValue</a>!]! </span></li><li></li><li><span class="tab"><span class="meta">type</span>: <a class="support type" href="type.spec.html">__Type</a>! </span></li><li></li><li><span class="tab"><span class="meta">isDeprecated</span>: <a class="support type" href="boolean.doc.html">Boolean</a>! </span></li><li></li><li><span class="tab"><span class="meta">deprecationReason</span>: <a class="support type" href="string.doc.html">String</a> </span></li><li>}</li></ul></code>
+        <code class="highlight"><ul class="code" style="padding-left:42px"><li><span class="keyword operator ts">type</span> <span class="identifier">TechnicalQuestionSubcategory</span> {</li><li></li><li><span class="tab"><span class="meta">html</span>: [<a class="support type" href="question.doc.html">Question</a>!]! </span></li><li></li><li><span class="tab"><span class="meta">css</span>: [<a class="support type" href="question.doc.html">Question</a>!]! </span></li><li></li><li><span class="tab"><span class="meta">javaScript</span>: [<a class="support type" href="question.doc.html">Question</a>!]! </span></li><li></li><li><span class="tab"><span class="meta">nodeJs</span>: [<a class="support type" href="question.doc.html">Question</a>!]! </span></li><li></li><li><span class="tab"><span class="meta">csTheory</span>: [<a class="support type" href="question.doc.html">Question</a>!]! </span></li><li>}</li></ul></code>
     </div>
 </section>
 <section>
@@ -186,23 +185,11 @@ has a name, potentially a list of arguments, and a return type.</p>
             </a>
             Require by
         </h2>
-        <ul class="require-by"><li><a href="type.spec.html" title="__Type - The fundamental unit of any GraphQL Schema is the type. There are many kinds
-of types in GraphQL as represented by the `__TypeKind` enum.
-
-Depending on the kind of a type, certain fields describe information about
-that type. Scalar types provide no information beyond a name and
-description, while Enum types provide their values. Object and Interface
-types provide the fields they describe. Abstract types, Union and Interface,
-provide the Object types possible at runtime. List and NonNull types compose
-other types.">__Type<em>The fundamental unit of any GraphQL Schema is the type. There are many kinds
-of types in GraphQL as represented by the `__TypeKind` enum.
-
-Depending on the kind of a type, certain fields describe information about
-that type. Scalar types provide no information beyond a name and
-description, while Enum types provide their values. Object and Interface
-types provide the fields they describe. Abstract types, Union and Interface,
-provide the Object types possible at runtime. List and NonNull types compose
-other types.</em></a><li></ul>
+        <ul class="require-by"><li><a href="questioncategory.doc.html" title="QuestionCategory - The main categories of interview questions
+Behavioral is more broad, regarding reactions to a situation
+Technical is more targeted to assess knowledge in a domain">QuestionCategory<em>The main categories of interview questions
+Behavioral is more broad, regarding reactions to a situation
+Technical is more targeted to assess knowledge in a domain</em></a><li></ul>
     </div>
 </section>
 <footer>
